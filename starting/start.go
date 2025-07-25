@@ -24,7 +24,5 @@ func starting() {
 }
 
 func main() {
-
-	generateGif()
-
+	serverListner()
 }
