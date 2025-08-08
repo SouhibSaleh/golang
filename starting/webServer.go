@@ -18,7 +18,7 @@ func (h MyHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	mux.Lock()
 	count++
 	mux.Unlock()
-	obj := simpleResponse{
+	obj := SimpleResponse{
 		Id:     0,
 		UserId: count,
 		Body:   "Hello World!",

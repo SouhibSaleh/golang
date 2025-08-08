@@ -4,6 +4,7 @@ import (
 	//"bufio"
 	"fmt"
 	"os"
+	onga "starting/myTesting"
 )
 
 func starting() {
@@ -24,5 +25,7 @@ func starting() {
 }
 
 func main() {
-	serverListner()
+
+	dataTest()
+	onga.Maining()
 }

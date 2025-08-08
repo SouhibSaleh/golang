@@ -9,14 +9,14 @@ import (
 	"time"
 )
 
-type simpleResponse struct {
+type SimpleResponse struct {
 	UserId int    `json:"userId"`
 	Id     int    `json:"id"`
 	Title  string `json:"title"`
 	Body   string `json:"body"`
 }
 
-func (res simpleResponse) toString() string {
+func (res SimpleResponse) toString() string {
 	return ``
 }
 func fetchUrl() {
@@ -39,7 +39,7 @@ func fetchUrl() {
 		fmt.Println(time2.Seconds())
 	}
 
-	//var response simpleResponse
+	//var response SimpleResponse
 	//err = json.Unmarshal(result, &response)
 	//if err != nil {
 	//	log.Fatal(err)
