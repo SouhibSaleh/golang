@@ -1,10 +1,8 @@
-package main
+package besting
 
 import (
-	//"bufio"
 	"fmt"
 	"os"
-	onga "starting/myTesting"
 )
 
 func starting() {
@@ -22,10 +20,4 @@ func starting() {
 		s += arg
 	}
 	fmt.Println(s)
-}
-
-func main() {
-
-	dataTest()
-	onga.Maining()
 }
