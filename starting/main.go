@@ -7,5 +7,5 @@ import (
 
 func main() {
 	fmt.Println("Starting...")
-	goroutines.Selecting()
+	goroutines.ChattingApp()
 }

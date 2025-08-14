@@ -1,5 +1,0 @@
-package goroutines
-
-func Selecting() {
-
-}
